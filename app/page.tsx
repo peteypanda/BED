@@ -45,13 +45,13 @@ export default function Home() {
         <div className="bg-gray-800 p-8 rounded-lg">
           <h2 className="text-2xl font-bold mb-4">Latest News</h2>
           <p className="text-gray-300">
-            Stay tuned for our upcoming shows and latest releases. Follow us on social media for the latest updates!
+            Stay tuned for our upcoming shows at your moms house and latest onlyfans releases. Follow us on pornhub for the latest updates!
           </p>
         </div>
         <div className="bg-gray-800 p-8 rounded-lg">
           <h2 className="text-2xl font-bold mb-4">Featured Music</h2>
           <p className="text-gray-300">
-            Check out our latest tracks and videos in the media section. New content added regularly!
+            Check out our latest tracks and videos with your mom in the media section. New content added regularly!  They rock!-Your mom
           </p>
         </div>
       </motion.div>

@@ -36,8 +36,13 @@ export default function About() {
           >
             <h2 className="text-2xl font-bold mb-4">Our Story</h2>
             <p className="text-gray-300 mb-4">
-              The Blue Eyed Daddies formed in 2023, bringing together talented musicians with a shared passion for creating unforgettable musical experiences. Our unique sound blends various genres, creating a style that's distinctly our own.
-            </p>
+              
+
+The Blue-Eyed Daddies formed in a German porn addiction rehabilitation unit, bringing together two fresh daddies with blue eyes and no legal visitation rights.
+
+With a shared passion for creating unforgettable experiences (that we often forget, so they’re kinda hard to describe) and a unique sound that blends like thick mayo, we’re here to entertain you—but mostly to entertain your mom.
+
+And Becky. She’s cool too.
             <p className="text-gray-300">
               From intimate venues to major festivals, we've been sharing our music and connecting with audiences across the region. Each performance is crafted to create an immersive experience that resonates with our fans.
             </p>
