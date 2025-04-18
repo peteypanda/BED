@@ -7,7 +7,7 @@ export default function Shows() {
     {
       id: 1,
       date: '2025-05-15',
-      venue: 'The Blue Room',
+      venue: 'The Blue Waffle',
       city: 'Seattle, WA',
       time: '8:00 PM',
       ticketLink: '#',
@@ -15,7 +15,7 @@ export default function Shows() {
     {
       id: 2,
       date: '2025-05-22',
-      venue: 'Sound Garden',
+      venue: 'Sound Gardens',
       city: 'Portland, OR',
       time: '9:00 PM',
       ticketLink: '#',
@@ -23,7 +23,7 @@ export default function Shows() {
     {
       id: 3,
       date: '2025-06-01',
-      venue: 'The Melody Bar',
+      venue: 'Your Moms Place w Special Guest BECKY!',
       city: 'Vancouver, BC',
       time: '7:30 PM',
       ticketLink: '#',

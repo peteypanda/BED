@@ -71,7 +71,7 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               className="bg-gray-800 p-6 rounded-lg"
             >
-              <h3 className="text-xl font-bold mb-2">Venue Name</h3>
+              <h3 className="text-xl font-bold mb-2">your moms house</h3>
               <p className="text-gray-300">Coming Soon</p>
               <p className="text-blue-400 mt-4">More Info →</p>
             </motion.div>

@@ -36,13 +36,12 @@ export default function About() {
           >
             <h2 className="text-2xl font-bold mb-4">Our Story</h2>
             <p className="text-gray-300 mb-4">
-              
+              The Blue-Eyed Daddies have been friends since high school when they bonded over their mutual love for Becky the hot high school cheerleader but they formed many years later in a German porn addiction rehabilitation unit, bringing together two fresh daddies with blue eyes and no legal visitation rights.
 
-The Blue-Eyed Daddies formed in a German porn addiction rehabilitation unit, bringing together two fresh daddies with blue eyes and no legal visitation rights.
+With a shared passion for creating unforgettable experiences (that we often forget, so they're kinda hard to describe) and a unique sound that blends like thick mayo, we're here to entertain you—but mostly to entertain your mom.
 
-With a shared passion for creating unforgettable experiences (that we often forget, so they’re kinda hard to describe) and a unique sound that blends like thick mayo, we’re here to entertain you—but mostly to entertain your mom.
-
-And Becky. She’s cool too.
+And Becky. She's cool too.
+            </p>
             <p className="text-gray-300">
               From intimate venues to major festivals, we've been sharing our music and connecting with audiences across the region. Each performance is crafted to create an immersive experience that resonates with our fans.
             </p>
@@ -53,24 +52,49 @@ And Becky. She’s cool too.
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12"
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12"
         >
           {/* Band Members */}
-          {[1, 2, 3].map((member) => (
-            <div key={member} className="text-center">
-              <div className="relative h-[300px] mb-4">
-                <Image
-                  src={`/images/member-${member}.jpg`}
-                  alt={`Band Member ${member}`}
-                  fill
-                  style={{ objectFit: 'cover' }}
-                  className="rounded-lg"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Band Member {member}</h3>
-              <p className="text-gray-300">Instrument</p>
+          <div className="text-center">
+            <div className="relative h-[300px] mb-4">
+              <Image
+                src="/images/member-1.jpg"
+                alt="Petey Puckett"
+                fill
+                style={{ objectFit: 'cover' }}
+                className="rounded-lg"
+              />
             </div>
-          ))}
+            <h3 className="text-xl font-bold mb-2">Petey Puckett</h3>
+            <p className="text-gray-300">Petey is the lead vocalist and guitarist of The Blue Eyed Daddies. He has a passion for creating unforgettable experiences and a unique sound that blends like thick mayo.</p>
+          </div>
+          
+          <div className="text-center">
+            <div className="relative h-[300px] mb-4">
+              <Image
+                src="/images/member-2.jpg"
+                alt="Ryan Duncan"
+                fill
+                style={{ objectFit: 'cover' }}
+                className="rounded-lg"
+              />
+            </div>
+            <h3 className="text-xl font-bold mb-2">Ryan Duncan</h3>
+            <p className="text-gray-300">Ryan is the sex appeal of The Blue Eyed Daddies. With his captivating stage presence and irresistible charisma, he brings the heat to every performance and leaves audiences wanting more.</p>
+          </div>
+          <div className="text-center">
+            <div className="relative h-[300px] mb-4">
+              <Image
+                src="/images/member-3.jpg"
+                alt="Becky"
+                fill
+                style={{ objectFit: 'cover' }}
+                className="rounded-lg"
+              />
+            </div>
+            <h3 className="text-xl font-bold mb-2">Becky</h3>
+            <p className="text-gray-300">Becky is the muse for The Blue Eyed Daddies. With her captivating stage presence and irresistible charisma, she brings the heat to every performance and leaves audiences wanting more.</p>
+          </div>
         </motion.div>
 
         <motion.div
@@ -79,9 +103,9 @@ And Becky. She’s cool too.
           transition={{ delay: 0.8 }}
           className="bg-gray-800 p-8 rounded-lg"
         >
-          <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
+          <h2 className="text-2xl font-bold mb-4">Our mission</h2>
           <p className="text-gray-300">
-            We're dedicated to creating authentic, powerful music that connects with people on a deep level. Through our performances and recordings, we aim to share our passion for music while pushing creative boundaries and delivering unforgettable experiences to our audience.
+            To make your mom happy and come again and again 
           </p>
         </motion.div>
       </motion.div>
